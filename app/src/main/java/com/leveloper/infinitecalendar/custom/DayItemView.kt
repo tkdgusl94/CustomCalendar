@@ -22,7 +22,7 @@ class DayItemView @JvmOverloads constructor(
     @AttrRes private val defStyleAttr: Int = R.attr.itemViewStyle,
     @StyleRes private val defStyleRes: Int = R.style.Calendar_ItemViewStyle,
     private val date: DateTime = DateTime(),
-    private var firstDayOfMonth: DateTime = DateTime()
+    private val firstDayOfMonth: DateTime = DateTime()
 ) : View(ContextThemeWrapper(context, defStyleRes), attrs, defStyleAttr) {
 
     private val bounds = Rect()

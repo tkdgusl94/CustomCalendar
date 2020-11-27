@@ -1,6 +1,5 @@
 package com.leveloper.infinitecalendar.utils
 
-import android.content.Context
 import android.graphics.Color
 import androidx.annotation.ColorInt
 import androidx.annotation.IntRange
